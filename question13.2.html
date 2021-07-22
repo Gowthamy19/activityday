@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+   <title> Javascript </title>
+
+ </head>
+  <body>
+    <script>
+      function minimum(arr){
+        let i;
+        let min=arr[0];
+        for( i=1;
+        i<arr.length; i++){
+          if(arr[i]<min)
+          min=arr[i];}
+
+        return min;
+
+      };
+      let arr=[10,5,8,4,7];
+
+      document.write("The min number is" +" " +minimum(arr));
+      </script>
+
+
+      </body>
+    </html>

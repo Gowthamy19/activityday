@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+   <title> Javascript </title>
+
+ </head>
+  <body>
+    <button onclick="addFruits()">ADD</button>
+  <p id ="demo"></p>
+    <script>
+     var fruits=["Apple","Banana"];
+     document.getElementById("demo").innerHTML=fruits;
+     function addFruits(){
+       fruits.push("orange","jackfruit","lemon","mango","grapes");
+       document.getElementById("demo").innerHTML=fruits;
+     };
+     document.getElementById("demo").innerHTML=fruits.length;
+
+
+    </script>
+    </body>
+  </html>
